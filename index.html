@@ -303,13 +303,17 @@
         @media (max-width: 600px) {
             .urgency-bar {
                 font-size: 0.75rem;
-                padding: 6px;
+                padding: 10px 6px;
                 flex-direction: column;
                 gap: 4px;
             }
 
             .header-main {
-                top: 48px;
+                top: 56px; /* Aumentado para dar espacio a la barra roja de dos lineas */
+            }
+            
+            .hero {
+                padding-top: clamp(180px, 35vw, 240px); /* Aumentado el tope superior para que el texto de bienvenida no choque con la barra */
             }
         }
 
