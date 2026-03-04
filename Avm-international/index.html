@@ -243,8 +243,8 @@
 
         /* URGENCY TOP BAR */
         .urgency-bar {
-            background-color: var(--urgency-red);
-            background-image: linear-gradient(90deg, #600000 0%, #8B0000 50%, #600000 100%);
+            background-color: var(--gold-primary);
+            background-image: linear-gradient(90deg, #9C781A 0%, #C49F3A 50%, #9C781A 100%);
             color: white;
             padding: 8px 16px;
             text-align: center;
@@ -857,8 +857,8 @@
             <h2 class="logo-nav serif">AVM · SMILE</h2>
             <div class="desktop-nav">
                 <span class="dark-bg-text" style="font-size: 0.85rem;">🦷 Diseño premium a partir de $5,000 USD</span>
-                <a href="#precio-seccion" class="btn btn-gold" style="padding: 10px 24px; border-radius: 30px;">Asegurar
-                    Diamante Gratis</a>
+                <a href="#precio-seccion" class="btn btn-gold"
+                    style="padding: 10px 24px; border-radius: 30px;">Valoración Gratis</a>
             </div>
         </div>
     </header>
@@ -1071,6 +1071,11 @@
                         <p style="opacity:0.9; font-size: 1.05rem;">Te guiamos en la reservación de vuelo y hospedaje.
                             Vuelos baratos de 3-4 horas desde Florida, Atlanta o NY directos.</p>
                         <div class="badge" style="margin-top: 1rem;" class="dark">Vuelos $200–$350 USD RT</div>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="https://wa.me/573173764936?text=Hola,%20deseo%20ayuda%20con%20la%20log%C3%ADstica%20del%20viaje."
+                                target="_blank" class="btn btn-gold"
+                                style="padding: 10px 24px; font-size: 0.95rem;">Ayuda para cotizar mi viaje →</a>
+                        </div>
                     </div>
                 </div>
                 <div class="step-item reveal" style="border-bottom: none;">
@@ -1185,6 +1190,23 @@
                         <option value="Otra ciudad o Estado">Otra ciudad / Estado en USA</option>
                     </select>
 
+                    <select id="f_passport" class="form-control" required
+                        style="appearance: none; background: #fff url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'12\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23000\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><polyline points=\'6 9 12 15 18 9\'></polyline></svg>') no-repeat right 16px center;">
+                        <option value="" disabled selected>¿Cuentas con Pasaporte Vigente?</option>
+                        <option value="Sí, vigente">Sí, lo tengo vigente</option>
+                        <option value="En trámite">En trámite / Próximamente</option>
+                        <option value="No, pero puedo sacarlo">No, pero puedo tramitarlo</option>
+                    </select>
+
+                    <select id="f_travel" class="form-control" required
+                        style="appearance: none; background: #fff url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'12\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23000\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><polyline points=\'6 9 12 15 18 9\'></polyline></svg>') no-repeat right 16px center;">
+                        <option value="" disabled selected>Disponibilidad aproximada de viaje</option>
+                        <option value="Próximos 30 días">Próximos 30 días</option>
+                        <option value="1 a 3 meses">En los próximos 1 a 3 meses</option>
+                        <option value="3 a 6 meses">En 3 a 6 meses</option>
+                        <option value="Aún no lo sé, solo coticando">Aún no lo sé, solo informándome</option>
+                    </select>
+
                     <button type="submit" class="btn btn-gold" style="width:100%;">Contactar Especialista por WhatsApp
                         →</button>
                     <div style="margin-top: 1rem; text-align: center;">
@@ -1220,7 +1242,10 @@
                         <div class="faq-inner" style="color: #333;">Nuestra clínica es de alta exigencia, nuestros
                             diseños VIP comienzan a partir de $5,000 USD. <strong>Únicamente por este mes</strong>,
                             estamos obsequiando una incrustación de diamante natural certificado sin costo en cualquier
-                            diente al confirmar tu viaje, creando un nivel de exclusividad insuperable.</div>
+                            diente al confirmar tu viaje, creando un nivel de exclusividad insuperable.<br><br><a
+                                href="https://wa.me/573173764936" target="_blank"
+                                style="color:var(--gold-primary); font-weight:600; text-decoration:underline;">Tengo
+                                dudas, hablar por WhatsApp →</a></div>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1229,7 +1254,10 @@
                     <div class="faq-content">
                         <div class="faq-inner" style="color: #333;">Sí, creemos en la arquitectura facial completa.
                             Realizamos perfilado de labios, toxina botulínica y definición mandibular para complementar
-                            el marco de tu nueva sonrisa de manera integral.</div>
+                            el marco de tu nueva sonrisa de manera integral.<br><br><a href="https://wa.me/573173764936"
+                                target="_blank"
+                                style="color:var(--gold-primary); font-weight:600; text-decoration:underline;">Tengo
+                                dudas, hablar por WhatsApp →</a></div>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1238,7 +1266,10 @@
                     <div class="faq-content">
                         <div class="faq-inner" style="color: #333;">Normalmente de 5 a 7 días. Coordinamos toda la
                             agenda previamente para que el proceso sea eficiente, con citas claras y puntuales. Te
-                            apoyamos en recomendaciones seguras de hospedaje.</div>
+                            apoyamos en recomendaciones seguras de hospedaje.<br><br><a
+                                href="https://wa.me/573173764936" target="_blank"
+                                style="color:var(--gold-primary); font-weight:600; text-decoration:underline;">Tengo
+                                dudas, hablar por WhatsApp →</a></div>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1247,7 +1278,10 @@
                     <div class="faq-content">
                         <div class="faq-inner" style="color: #333;">Totalmente. Recibimos pacientes élites de USA
                             semanalmente. La clínica se encuentra en zonas modernas y exclusivas. Orientamos a nuestros
-                            turistas dentales para que su experiencia sea 100% segura y placentera.</div>
+                            turistas dentales para que su experiencia sea 100% segura y placentera.<br><br><a
+                                href="https://wa.me/573173764936" target="_blank"
+                                style="color:var(--gold-primary); font-weight:600; text-decoration:underline;">Tengo
+                                dudas, hablar por WhatsApp →</a></div>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1256,7 +1290,10 @@
                     <div class="faq-content">
                         <div class="faq-inner" style="color: #333;">¡Sí! Hacemos la valoración inicial a distancia por
                             WhatsApp, evaluando tus fotografías de forma rápida. Al finalizar nuestro análisis clínico,
-                            te damos cotización precisa en dólares sin trucos.</div>
+                            te damos cotización precisa en dólares sin trucos.<br><br><a
+                                href="https://wa.me/573173764936" target="_blank"
+                                style="color:var(--gold-primary); font-weight:600; text-decoration:underline;">Tengo
+                                dudas, hablar por WhatsApp →</a></div>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1266,7 +1303,9 @@
                         <div class="faq-inner" style="color: #333;">En USA, la mano de obra estética premium y artística
                             real puede superar los $20,000 USD. Nosotros ofrecemos estándares iguales o superiores
                             integrados con arte facial, generándote un ahorro radical para viajar y disfrutar por una
-                            fracción del precio.</div>
+                            fracción del precio.<br><br><a href="https://wa.me/573173764936" target="_blank"
+                                style="color:var(--gold-primary); font-weight:600; text-decoration:underline;">Tengo
+                                dudas, hablar por WhatsApp →</a></div>
                     </div>
                 </div>
             </div>
@@ -1382,9 +1421,11 @@
             const n = document.getElementById('f_name').value;
             const w = document.getElementById('f_wa').value;
             const c = document.getElementById('f_city').value;
+            const p = document.getElementById('f_passport').value;
+            const t = document.getElementById('f_travel').value;
 
-            // construct msg WITH URGENCY
-            const msg = `Hola equipo Médico VIP AVM.\n\nHe visto en la página la promoción del *Diamante Natural gratis* para residentes de EE.UU. e internacionales y deseo bloquear ese cupo.\n\n*Mis Datos:*\nNombre: ${n}\nWhatsApp: ${w}\nResidencia: ${c}\n\nQuedo atento(a) a la cotización de los diseños premium a partir de $5,000 USD.`;
+            // construct msg WITH URGENCY AND NEW FIELDS
+            const msg = `Hola equipo Médico VIP AVM.\n\nHe visto en la página la promoción del *Diamante Natural gratis* para residentes de EE.UU. e internacionales y deseo bloquear ese cupo.\n\n*Mis Datos:*\nNombre: ${n}\nWhatsApp: ${w}\nResidencia/Ciudad: ${c}\nPasaporte: ${p}\nViaje Estimado: ${t}\n\nQuedo atento(a) a la valoración gratuita y cotización de los diseños premium.`;
             const waLink = `https://wa.me/573173764936?text=${encodeURIComponent(msg)}`;
 
             setTimeout(() => {
